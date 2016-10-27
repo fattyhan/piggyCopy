@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      url: mongodb://user:1234@localhost:27017/piggymetrics?connectTimeoutMS=300000
+
+server:
+  context-path: /uaa
+  port: 5000
